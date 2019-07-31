@@ -141,7 +141,6 @@
 
 @media (orientation:landscape) and (min-width:1024px) {
     .h1-header-baner {
-        font-size: 3em;
         letter-spacing: 1px;
     }
 

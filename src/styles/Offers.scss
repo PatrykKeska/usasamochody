@@ -64,6 +64,7 @@ $fonts:(standard: arial,
     h3.offers-h3 {
         margin-bottom: getMargin(h3-margin);
         font-family: getFont(fresca), Arial, Helvetica, sans-serif;
+        font-size : .8em; 
        
 
         @include desktop {
@@ -78,6 +79,7 @@ $fonts:(standard: arial,
             display: block; 
             text-decoration: none; 
             padding: 5px ;
+            font-size: 1em;
             color :rgb(245, 245, 245);
             position: relative;
             overflow: hidden;
@@ -143,7 +145,7 @@ $fonts:(standard: arial,
         h4 {
             font-family: getFont(fresca);
             margin: 5px;
-            font-size: 1.3em;
+            font-size: 1em;
         }
 
         img {
@@ -162,6 +164,7 @@ $fonts:(standard: arial,
             text-align: center;
             letter-spacing: 1px;
             max-width: 50%;
+            font-size: .6em;
 
             @include desktop {
                 margin-bottom: 4em;
@@ -171,7 +174,7 @@ $fonts:(standard: arial,
 
         a {
             text-decoration: none;
-            font-size: 1em;
+            font-size: .6em;
             color: white;
             background-color: rgba(0, 94, 255, 0.612);
             padding: .5em .7em;

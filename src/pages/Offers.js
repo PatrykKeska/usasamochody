@@ -29,12 +29,7 @@ const Offers = () => {
             description : 'TIGUAN 2,0 benzyna- TSI,moc 200 KM, skrzynia biegów automatyczna, napęd na 4 koła 4motion ...', 
             link : 'https://www.otomoto.pl/oferta/volkswagen-tiguan-4x4-4motion-ID6BXjCk.html'
         },
-        { 
-            name : 'Ford Escape Granatowy',
-            img :FordEscapeGranatowy,
-            description : 'Ford Escape europejska kuga. Silnik 1,6 BENZYNA ECOBOOST 181 KM-bardzo oszczędny i dynamiczny, napęd 4X4. Najlepsza wersja TITANIUM... ', 
-            link : 'https://www.otomoto.pl/oferta/ford-kuga-escape-1-6-ecoboost-wersja-titanium-4x4-ID6AiRVW.html'
-        },
+
     ]
 
 

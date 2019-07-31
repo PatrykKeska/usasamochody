@@ -26,7 +26,7 @@ class HomePage extends Component {
 
            <div className="shipping">
                <h3> <span className='home-page-h3-span'><FontAwesomeIcon icon="shipping-fast"></FontAwesomeIcon></span>Sprowadzamy</h3>
-               Załatwiamy formalności w USA oraz organizujemy wysyłkę do Polski.Zajmujemy się Wszystkimi formalnościami związanymi z Cłem,Akcyzą i Vatem
+               Załatwiamy formalności w USA oraz organizujemy wysyłkę do Polski. Zajmujemy się Wszystkimi formalnościami związanymi z Cłem, Akcyzą i Vatem
        </div>
 
            <div className="repair">

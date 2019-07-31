@@ -179,7 +179,7 @@ nav {
     .nav-div-wrapper li a {
         text-align: center;
         display: block;
-        font-size: 1em;
+        font-size: .5em;
         height: 100%;
         line-height: 0;
         padding: .5em;

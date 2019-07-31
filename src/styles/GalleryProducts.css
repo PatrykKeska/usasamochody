@@ -8,7 +8,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.7);
-    font-size: 1em;
+    font-size: .8em;
 
 
 }
@@ -37,7 +37,7 @@
 @media (orientation:landscape) and (min-width:500px) {
     .gallery-products-div-wrapper h3 {
         margin: 1em auto 0.5em auto;
-        font-size: 1.5em;
+        
     }
 
     .ul-gallery-products {

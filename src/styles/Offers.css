@@ -39,6 +39,7 @@
 .offers-section h3.offers-h3 {
   margin-bottom: 5vh;
   font-family: "Fresca", Arial, Helvetica, sans-serif;
+  font-size: .8em;
 }
 
 @media (min-width: 1024px) {
@@ -56,6 +57,7 @@
   display: block;
   text-decoration: none;
   padding: 5px;
+  font-size: 1em;
   color: whitesmoke;
   position: relative;
   overflow: hidden;
@@ -135,7 +137,7 @@
 .offers-section .offers__section__div h4 {
   font-family: "Fresca";
   margin: 5px;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .offers-section .offers__section__div img {
@@ -156,6 +158,7 @@
   text-align: center;
   letter-spacing: 1px;
   max-width: 50%;
+  font-size: .6em;
 }
 
 @media (min-width: 1024px) {
@@ -166,7 +169,7 @@
 
 .offers-section .offers__section__div a {
   text-decoration: none;
-  font-size: 1em;
+  font-size: .6em;
   color: white;
   background-color: rgba(0, 94, 255, 0.612);
   padding: .5em .7em;
