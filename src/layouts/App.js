@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
 import "../styles/App.css"
-import { BrowserRouter as Router, HashRouter, } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Header from "../layouts/Header"
 import Navigation from "../layouts/Navigation"
-import Page from "../layouts/Page"
+import MainTemplate from '../Templates/MainTemplate';
+import Page from "../layouts/Page";
+import LookingForMobile from '../images/backgrounds/LookingFor640.jpg'
+import LookingFor from '../images/backgrounds/LookingFor1920.jpg'
+import WorkshopMobile from '../images/backgrounds/Workshop640.jpg'
+import Workshop from '../images/backgrounds/Workshop1920.jpg'
+import shipping from '../images/backgrounds/Shipping1920.jpg';
+import shippingMobile from '../images/backgrounds/Shipping640.jpg'
+import ExperienceMobile from '../images/backgrounds/Experience640.jpg'
+import Experience from '../images/backgrounds/Experience1920.jpg'
+import Section from '../components/atoms/Section/Section';
 
 
 
@@ -14,8 +24,9 @@ class App extends Component {
   render() {
 
     return (
-      <HashRouter>
-        <Router basename="/#">
+      
+        <Router>
+          <MainTemplate>
           <div className="main-div-app">
             <header className="main-app-header">
               <Header />
@@ -28,12 +39,15 @@ class App extends Component {
                 {<Page handleScroll={this.handleScroll} />}
               </section>
             </main>
-            <footer>
-            </footer>
+            <Section blur img={LookingFor} mobile={LookingForMobile}/>
+            <Section img={shipping} mobile={shippingMobile}/>
+            <Section blur img={Workshop} mobile={WorkshopMobile}/>
+            <Section img={Experience} mobile={ExperienceMobile}/>
 
           </div>
+          </MainTemplate>
         </Router >
-      </HashRouter>
+      
 
     );
   }

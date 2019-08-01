@@ -4,6 +4,7 @@ import Footer from '../layouts/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faTools, faShippingFast, faHandshake, } from '@fortawesome/free-solid-svg-icons'
+import Section from '../components/atoms/Section/Section';
 library.add(faSearch, faTools, faShippingFast, faHandshake)
 
 
@@ -16,13 +17,17 @@ class HomePage extends Component {
 
         return (
             <>
-
+{/* 
         < div className="home-page-wrapper" >
 
            <div className="searching">
                <h3> <span className='home-page-h3-span'> <FontAwesomeIcon icon="search"></FontAwesomeIcon></span>Wyszukujemy</h3>
                <p>doradzamy w wyborze, analizujemy aukcje pod kątem stanu technicznego pojazdu oraz opłacalności ewentualnych napraw.</p>
            </div>
+
+           <Section>
+
+           </Section>
 
            <div className="shipping">
                <h3> <span className='home-page-h3-span'><FontAwesomeIcon icon="shipping-fast"></FontAwesomeIcon></span>Sprowadzamy</h3>
@@ -40,7 +45,7 @@ class HomePage extends Component {
                oraz  grono zadowolonych klientów. Z nami Masz pewność udanego i bezpiecznego zakupu.
        </div>
            <Footer />
-       </div >
+       </div > */}
 
         </>
         );
