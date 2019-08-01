@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, {css} from 'styled-components'; 
-import ClipPath from '../ClipPath/ClipPath';
+
 
 
 
@@ -16,6 +16,7 @@ background-size : cover;
 display : grid; 
 grid-template-columns : 1; 
 grid-template-rows : 2; 
+opacity : .8;
 
 @media (min-width : 600px){ 
     background-image : url(${({img})=> img}); 
@@ -32,15 +33,17 @@ grid-template-rows : 2;
     height : 100% ;
     background-color :rgba(0,0,0,.5);
     z-index : 1;
+    
+    
 
 }
 
 ::after { 
     content : '';
     width : 100%;
-    height : 20px; 
+    height : 10px; 
     position : absolute; 
-    bottom : -10px; 
+    bottom : -5px; 
     left : 0 ; 
     z-index :5;
     background-color: #b1b4b1;
@@ -49,7 +52,7 @@ grid-template-rows : 2;
 
 
 ${({blur})=> blur && css`
-filter : blur(1px); 
+/* filter : blur(2px);  */
 
 `}
 
