@@ -7,7 +7,7 @@ import Heading from '../../atoms/Heading/Heading';
 import Descripion from '../../atoms/Description/Description'
 
 const MainSectionThree = ()=> ( 
-<Section blur img={Workshop} mobile={WorkshopMobile}>
+<Section  img={Workshop} mobile={WorkshopMobile}>
     <ClipPath>
  <Heading>Pomagamy w Naprawie
  </Heading>

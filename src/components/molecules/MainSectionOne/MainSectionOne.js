@@ -10,7 +10,7 @@ import ClipPath from '../../atoms/ClipPath/ClipPath';
 
 
 const MainSectionOne = ()=> ( 
-<Section blur img={LookingFor} mobile={LookingForMobile}>
+<Section img={LookingFor} mobile={LookingForMobile}>
 <ClipPath>
 <Heading>
     Wyszukujemy

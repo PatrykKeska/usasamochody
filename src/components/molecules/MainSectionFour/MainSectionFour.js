@@ -9,13 +9,13 @@ import Description from '../../atoms/Description/Description'
 const InnerWrapper = styled.div`
 width  : 100% ; 
 height : 100%; 
-position : relative; 
+position : relative;    
 padding : 30px 50px; 
 z-index : 10; 
 `
 
 const MainSectionFour = ()=> ( 
-<Section blur img={Experience} mobile={ExperienceMobile}>
+<Section img={Experience} mobile={ExperienceMobile}>
 <InnerWrapper>
  <Heading>
  Doświadczenie

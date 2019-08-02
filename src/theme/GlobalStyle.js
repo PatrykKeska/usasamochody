@@ -2,7 +2,7 @@ import {createGlobalStyle} from 'styled-components';
 
 
 const GlobalStyle = createGlobalStyle` 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext');
 
 
 *,*::before , *::after{ 
@@ -18,7 +18,7 @@ html{
 
 body { 
     font-family: 'Roboto Condensed', sans-serif;
-    font-size : 1.6rem; 
+        font-size : 1.6rem; 
     margin : 0 auto; 
     display : flex; 
     justify-content : center; 

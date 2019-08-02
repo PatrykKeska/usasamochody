@@ -24,7 +24,7 @@ class Root extends Component {
             <Switch>
             <Route exact path='/'component={MainPage} /> 
             <Route path='/galeria'component={GalleryPage} /> 
-            <Route ath='/oferty'component={OffersPage} /> 
+            <Route path='/oferty'component={OffersPage} /> 
             <Route path='/kontakt'component={ContactPage} /> 
           
           </Switch>

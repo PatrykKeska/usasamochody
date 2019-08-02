@@ -10,27 +10,27 @@
 
   
 
-//     const data = [
-//         { 
-//             name : 'Ford Mondeo',
-//             img :FordFusion,
-//             description : 'Ford Mondeo po lifcie full wersja TYTANIUM, silnik 2.0 benzyna - moc 250 KM, skrzynia automatyczna, łopatki zmiany biegów....', 
-//             link : 'https://www.otomoto.pl/oferta/ford-mondeo-fusion-2-0-benzyna-ful-wersja-titanium-ID6C4rdf.html'
-//         },
-//         { 
-//             name : 'BMW X3',
-//             img : BMWX3, 
-//             description : 'BMW X3 F25 Z ROKU 2017 Przebieg to 16 tyś kilometrów, silnik 2.0 benzyna 245 km, automat 4x4 xdrive...', 
-//             link : 'https://www.otomoto.pl/oferta/bmw-x3-2-0-benzyna-250-km-4x4-xdrive-ID6BOP67.html'
-//         },
-//         { 
-//             name : 'Volkswagen Tiguan 4x4 ',
-//             img : TiguanGray,
-//             description : 'TIGUAN 2,0 benzyna- TSI,moc 200 KM, skrzynia biegów automatyczna, napęd na 4 koła 4motion ...', 
-//             link : 'https://www.otomoto.pl/oferta/volkswagen-tiguan-4x4-4motion-ID6BXjCk.html'
-//         },
+    // const data = [
+    //     { 
+    //         name : 'Ford Mondeo',
+    //         img :FordFusion,
+    //         description : 'Ford Mondeo po lifcie full wersja TYTANIUM, silnik 2.0 benzyna - moc 250 KM, skrzynia automatyczna, łopatki zmiany biegów....', 
+    //         link : 'https://www.otomoto.pl/oferta/ford-mondeo-fusion-2-0-benzyna-ful-wersja-titanium-ID6C4rdf.html'
+    //     },
+    //     { 
+    //         name : 'BMW X3',
+    //         img : BMWX3, 
+    //         description : 'BMW X3 F25 Z ROKU 2017 Przebieg to 16 tyś kilometrów, silnik 2.0 benzyna 245 km, automat 4x4 xdrive...', 
+    //         link : 'https://www.otomoto.pl/oferta/bmw-x3-2-0-benzyna-250-km-4x4-xdrive-ID6BOP67.html'
+    //     },
+    //     { 
+    //         name : 'Volkswagen Tiguan 4x4 ',
+    //         img : TiguanGray,
+    //         description : 'TIGUAN 2,0 benzyna- TSI,moc 200 KM, skrzynia biegów automatyczna, napęd na 4 koła 4motion ...', 
+    //         link : 'https://www.otomoto.pl/oferta/volkswagen-tiguan-4x4-4motion-ID6BXjCk.html'
+    //     },
 
-//     ]
+    // ]
 
 
 //     return (

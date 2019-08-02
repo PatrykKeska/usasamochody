@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, {css} from 'styled-components'; 
+import styled from 'styled-components'; 
 
 
 
@@ -49,12 +49,6 @@ opacity : .8;
     background-color: #b1b4b1;
     filter: blur(5px)
 }
-
-
-${({blur})=> blur && css`
-/* filter : blur(2px);  */
-
-`}
 
 `
 
