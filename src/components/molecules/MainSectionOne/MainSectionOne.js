@@ -15,10 +15,11 @@ const MainSectionOne = ()=> (
 <Heading>
     Wyszukujemy
 </Heading>
-<Description>  DORADZAMY W WYBORZE, 
+<Description> DORADZAMY W WYBORZE, 
   ANALIZUJEMY AUKCJE POD KĄTEM 
    STANU TECHNICZNEGO POJAZDU
     ORAZ OPŁACALNOŚCI  NAPRAW.</Description>
+
 </ClipPath>
 </Section>
 
