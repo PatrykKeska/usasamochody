@@ -1,11 +1,11 @@
 import React from 'react';
 import Nav from '../components/molecules/Navigation/Nav'
-import Heading from '../components/atoms/Heading/Heading'
+
 import styled from 'styled-components'; 
 import BMWX3 from '../assets/offers/BMWX3.jpg'
 import TiguanGray from '../assets/offers/TiguanGray.jpg'
 import FordFusion from '../assets/offers/FordFusion.jpg'
-import Description from '../components/atoms/Description/Description';
+
 import NavButton from '../components/atoms/NavButton/NavButton';
 
 

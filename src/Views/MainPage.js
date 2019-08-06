@@ -7,6 +7,7 @@ import Nav from '../components/molecules/Navigation/Nav';
 
 
 
+
 const MainPage = ()=> (
 <>
 <Nav/>
