@@ -1,9 +1,8 @@
-import {createGlobalStyle} from 'styled-components'; 
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle` 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext');
-
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 *,*::before , *::after{ 
     box-sizing : border-box; 
@@ -25,7 +24,6 @@ body {
     align-items : center;
     overflow-x : hidden;
 }
-`
+`;
 
-
-export default GlobalStyle; 
+export default GlobalStyle;

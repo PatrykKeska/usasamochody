@@ -6,6 +6,7 @@ import GalleryListPage from '../Views/GalleryListPage';
 import OffersPage from '../Views/OffersPage';
 import ContactPage from '../Views/ContactPage';
 import GalleryPage from '../components/atoms/GalleryList/GalleryPage';
+import WellcomePage from '../Views/WellcomePage';
 
 
 
@@ -23,7 +24,8 @@ class Root extends Component {
         <Router>
           <MainTemplate>
             <Switch>
-            <Route exact path='/'component={MainPage} /> 
+            <Route exact path='/'component={WellcomePage} /> 
+            <Route exact path='/onas'component={MainPage} /> 
             <Route exact path='/galeria'component={GalleryListPage}/>
             <Route exact path='/galeria/:id'component={GalleryPage}/> 
             <Route path='/oferty'component={OffersPage} /> 
