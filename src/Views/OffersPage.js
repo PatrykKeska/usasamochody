@@ -138,7 +138,7 @@ const OffersPage = () => (
     {" "}
     <Nav />
     <StyledWrapper>
-      <StyledH2>Zapraszamy Do Zapoznania się z Aktualnymi Ofertami</StyledH2>
+      <StyledH2>Zapraszamy Do zapoznania się z zktualnymi ofertami</StyledH2>
       <StyledGrid>{Items}</StyledGrid>
     </StyledWrapper>
   </>
