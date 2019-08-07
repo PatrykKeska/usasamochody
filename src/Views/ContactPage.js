@@ -19,7 +19,7 @@ const StyledWrapper = styled.section`
 
   @keyframes appearSectionsXR {
     0% {
-      transform: translateX(100vw);
+      opacity: 0;
     }
 
     100% {

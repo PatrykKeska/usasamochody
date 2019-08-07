@@ -156,10 +156,15 @@ class Nav extends React.Component {
       isOpen: true
     });
 
-  handleNavClose = () =>
+  handleNavClose = () => {
     this.setState({
       isOpen: false
     });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 
   render() {
     const { black } = this.props;
