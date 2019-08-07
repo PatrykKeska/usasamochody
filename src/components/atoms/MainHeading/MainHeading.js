@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const Heading = styled.h1`
   font-size: 1em;
@@ -11,14 +11,12 @@ const Heading = styled.h1`
   text-align: center;
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 30px 10px;
-  top: 5%;
-  left: 1%;
+  padding: 20px 10px;
 
   @media (orientation: landscape) and (min-width: 560px) {
     width: 80%;
     font-size: 0.8em;
-    padding: 10px 10px;
+    padding: 2px 5px;
     margin-top: 5vh;
   }
 `;

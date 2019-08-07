@@ -11,7 +11,11 @@ const StyledWrapper = styled.nav`
   width: 100%;
   justify-content: center;
   margin-bottom: 2vh;
-  padding: 20px 10px;
+  padding: 10px 10px;
+
+  @media (min-width: 700px) {
+    flex-wrap: nowrap;
+  }
 `;
 
 const StyledButoon = styled(NavButton)`
@@ -20,8 +24,10 @@ const StyledButoon = styled(NavButton)`
   width: 40%;
   max-width: 200px;
   box-shadow: 0 0 2px 2px white;
-
-  @media (orientation: landscape) and (min-width: 560px) {
+  text-align: center;
+  padding: 10px 5px;
+  @media (min-width: 700px) {
+    font-size: 0.4em;
   }
 `;
 
