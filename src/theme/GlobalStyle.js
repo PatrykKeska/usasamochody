@@ -10,6 +10,16 @@ const GlobalStyle = createGlobalStyle`
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar {
+    width: 1px;
+}
+ 
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 html{ 
     font-size: calc(1em + 1vw) ;
     font-family: 'Roboto Condensed', sans-serif;
